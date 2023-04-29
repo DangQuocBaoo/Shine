@@ -39,6 +39,10 @@ a {
     font-size: 1.6rem;
     color: #fff;
 }
+
+.btn:hover {
+    opacity: 0.9;
+}
 .section-heading {
     font-weight: 600;
     font-size: 5rem;
@@ -392,4 +396,86 @@ a {
 
 .feature__btn {
     margin-top: 38px;
+}
+
+/*Member*/
+.member {
+    padding: 85px 0px;
+}
+
+.member__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member__btn {
+    margin-top: 38px;
+}
+
+.member__list {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+}
+
+.member-item__img-bg {
+    padding-top: 28px;
+    background-color: #eaf6ff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.member-item__thumb {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    height: 290px;
+}
+
+.member-item__name {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #10375c;
+}
+
+.member-item__desc {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #575f66;
+}
+
+.member__control {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+    column-gap: 18px;
+}
+.member__control--next-icon {
+    rotate: 180deg;
+}
+.member__control-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575f66;
+    outline: none;
+    color: #575f66;
+}
+
+.member__control-btn:hover {
+    border-color: #2e80ce;
+    background-color: #2e80ce;
+    color: #fff;
+    transition: 0.25s;
+    cursor: pointer;
 }

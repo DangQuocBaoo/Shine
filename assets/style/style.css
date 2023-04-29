@@ -347,3 +347,49 @@ a {
     line-height: 1.75;
     color: #2e80ce;
 }
+
+/* Feature */
+
+.feature {
+    margin-top: 85px;
+    padding: 85px 0;
+}
+.feature__block {
+    display: flex;
+    gap: 130px;
+}
+
+.feature__media {
+    width: 48%;
+}
+
+.feature__images {
+    position: relative;
+    padding-bottom: 121px; /* đẩy ảnh xuống để absolute ko đè lên nội dụng */
+    padding-right: 58px;
+}
+
+.feature__img {
+    width: 512px;
+    height: 570px;
+    filter: drop-shadow(0px 14px 28px rgba(0, 0, 0, 0.07));
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.feature__img:last-child {
+    position: absolute;
+    width: 332px;
+    height: 370px;
+    right: 0;
+    bottom: 0;
+}
+
+/* Feature Content */
+.feature__content {
+    margin-top: 82px;
+}
+
+.feature__btn {
+    margin-top: 38px;
+}
